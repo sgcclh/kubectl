@@ -1,7 +1,7 @@
 FROM alpine
 
-ENV KUBE_LATEST_VERSION="v1.13.1" \
-    HELM_VERSION="v2.12.1" \
+ENV KUBE_LATEST_VERSION="v1.16.4" \
+    HELM_VERSION="v3.0.2" \
     KEYPAIR_LOGIN=false
 
 RUN apk add --no-cache ca-certificates bash git bash-completion ncurses \
